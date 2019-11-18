@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>Users Page</h1>
+    <h1>{{pageTitle}}</h1>
     <ul>
       <li v-for="user of users" :key="user.id">
         <a href="#" @click.prevent="openUser(user.id)">{{user.name}}</a>
@@ -16,7 +16,7 @@
       return {users}
     },
     data: () => ({
-      users: []
+      pageTitle: 'Users page'
     }),
     methods: {
       openUser(user) {
