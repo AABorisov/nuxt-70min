@@ -9,3 +9,9 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis distinctio expedita magni odio rem sunt.</p>
   </section>
 </template>
+
+<script>
+  export default {
+    middleware: ['auth'] // goes from left to right. Order is important!
+  }
+</script>
