@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-70min",
+  "version": "1.0.0",
+  "description": "NuxtJS 2019 - Vue + SSR",
+  "author": "AABorisov",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
