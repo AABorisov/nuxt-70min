@@ -16,5 +16,10 @@ nul > history.md
 ```
 
 ```shell script
+yarn add bootstrap
+# add it in css section nuxt.config.js
+```
+
+```shell script
 
 ```
