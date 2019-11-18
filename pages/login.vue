@@ -3,7 +3,7 @@
     <form>
       <h1>Login page</h1>
       <div class="form-group">
-        <input type="text" class="form-control"/>
+        <input type="text" class="form-control" aria-label="Username"/>
       </div>
 
       <p>
